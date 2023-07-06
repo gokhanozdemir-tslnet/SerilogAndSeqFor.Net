@@ -15,7 +15,7 @@ namespace SerilogApp.Controllers
 
         public IActionResult Index()
         {
-            _logger.LogError("Bu serilog hatası");
+            //_logger.LogError("Bu serilog hatası");
             return View();
         }
 
